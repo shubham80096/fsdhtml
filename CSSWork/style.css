@@ -5,21 +5,29 @@ body{
     background-attachment: aqua;
 } */
  .container{
-    background-color: bisque;
+    background-color: rgb(250, 000, 00);
     height: 400px;
     border: 2px solid red;
     margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
  }
- /* .child1{
-    background-color: brown;
-    color: white;
-    height: 300px;
-    border: 2px solid blue;
+.child1, .child2,.child3{
+    height: 200px;
+    border: 1px,dotted,greenyellow;
     width: 300px;
-    margin-left: 300px;
-    padding: 100px 50px 40px;
-    box-sizing: border-box;
- } */
-  div> p{
-    background-color: yellow;
-  }
+    
+}
+.child1{
+    background-color: rgb(21, 143, 230);
+}
+.child2{
+    background-color: chartreuse;
+    flex-basis: 50%;
+}
+.child3{
+    background-color: darkmagenta;
+}
